@@ -68,6 +68,12 @@ h1 {
     background-color: $light-gray;
     border: none;
     cursor: pointer;
+
+    &:hover {
+        background-color: transparent;
+        color: $trans-white;
+        border: 1px solid $trans-white;
+    }
 }
 
 .btn-align {
