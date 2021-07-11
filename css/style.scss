@@ -118,6 +118,14 @@ h1 {
         font-size: 17px;
     }
 
+    .btn:hover {
+       
+        background-color: transparent;
+        color: $trans-white;
+        border: 1px solid $trans-white;
+    
+    }
+
 }
 
     @media (max-width: 375px) {
@@ -142,6 +150,14 @@ h1 {
 
     .btn-align {
         margin-top: -30px;
+    }
+
+    .btn:hover {
+       
+        background-color: transparent;
+        color: $trans-white;
+        border: 1px solid $trans-white;
+    
     }
 
 }
